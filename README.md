@@ -54,6 +54,14 @@ Implementing Mini-batch gradient descent in Pytorch (also includes batch GD and 
 
 This covers implementing the above code the Pytorch way using in-built Pytorch functions/methods for our loss function and optimizer
 
+##### 7) 7- Training and Validation Datasets.ipynb
+
+This covers details about why we need training and validation datasets. Also, tells us how to implement PyTorch code to find ideal hyperparameters (here: learning_rate) for the same training dataset using the validation dataset. Then, base on lowest loss on validation dataset, we pick one of the models finally
+
+##### 8) 8- Early_stopping.ipynb
+
+This covers the implementation of early stopping .ie. using the model for an epoch which has the lowest loss on validation data, instead of running it for maximum epochs. Also, covers saving and loading a model
+
 
 
 
